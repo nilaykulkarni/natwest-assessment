@@ -1,5 +1,8 @@
 package com.natwest.assessment.model;
 
+/*
+Bean to hold input
+ */
 public class InputRequest {
 
     Integer input;

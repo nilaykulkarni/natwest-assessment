@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/*
+Rest controller with one POST method to receive input from client and return response by calling service
+ */
 @RestController
 public class PrimeNumberController {
     @Autowired

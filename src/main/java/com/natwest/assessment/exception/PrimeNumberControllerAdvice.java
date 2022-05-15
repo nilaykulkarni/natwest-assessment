@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.servlet.http.HttpServletRequest;
 
+/*
+Controller advice to catch all exceptions generated in the application
+ */
 @ControllerAdvice
 public class PrimeNumberControllerAdvice {
 

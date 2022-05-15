@@ -20,6 +20,7 @@ Cucumber
  
  #####JUnits
  JUnit test for service class is covered in `PrimeNumberServiceTest.java`
+ JUnit test to check if controller loads successfully is covered in `NatwestAssessmentApplicationTests.java`
  
  #####Cucumber Integration tests
  Pre-requisites

@@ -2,11 +2,13 @@ package com.natwest.assessment.service;
 
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/*
+Service to return prime numbers including and up to given input
+ */
 @Service
 public class PrimeNumberService {
     public List<Integer> findPrimeNumbers(Integer input) {
